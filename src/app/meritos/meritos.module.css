@@ -1,0 +1,72 @@
+.main {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 6rem 6rem 6rem;
+  min-height: 100vh;
+}
+
+.meritos {
+  width: 100%;
+  margin-top: 5rem;
+  display: flex;
+  flex-flow: column wrap;
+  gap: 2rem;
+}
+
+.meritos h1 {
+  text-align: center;
+}
+
+.meritos h2 {
+  text-align: start;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  gap: 1rem;
+}
+.card {
+  width: 90%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5rem;
+  padding: 1rem 1.2rem;
+  border-radius: var(--border-radius);
+  background: rgba(var(--card-rgb), 0);
+  border: 1px solid rgba(var(--card-border-rgb), 0);
+  transition: background 200ms, border 200ms;
+}
+
+.logo {
+  border-radius: var(--border-radius);
+}
+
+.text {
+  width: 70%;
+}
+
+/* Enable hover only on non-touch devices */
+@media (hover: hover) and (pointer: fine) {
+  .card:hover {
+    background: rgba(var(--card-rgb), 0.1);
+    border: 1px solid rgba(var(--card-border-rgb), 0.15);
+  }
+
+  .card:hover span {
+    transform: translateX(4px);
+  }
+}
+
+@media (prefers-reduced-motion) {
+  .card:hover span {
+    transform: none;
+  }
+}
