@@ -3,11 +3,11 @@
 }
 .container {
   width: 100%;
-  margin-top: 3rem;
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
+  flex-flow: column wrap;
+  justify-content: center;
   align-items: center;
+  gap: 1rem;
 }
 .logoA {
   display: flex;
@@ -15,16 +15,19 @@
   align-items: center;
   gap: 0.5rem;
 }
-.logo {
-    position: absolute;
-    top: 2rem;
-    left: 4.5rem;
+
+.logoA h1 {
+  font-size: 2rem;
 }
+
+.line {
+  width: 60%;
+  border-top: 1px solid rgba(0, 0, 0, 0.418);
+}
+
 .navbar {
-  background-color: rgba(0, 0, 0, 0.9);
-  width: 85%;
-  padding: 0.5rem;
-  border-radius: 25px;
+  /*background-color: rgba(0, 0, 0, 0.9);*/
+  width: 60%;
   display: flex;
   justify-content: center;
   gap: 3rem;
@@ -34,7 +37,7 @@
 /* From uiverse.io by @WhiteNervosa */
 .item a {
   font-size: 18px;
-  color: #fff; /* #e1e1e1 */
+  color: #000000; /* #e1e1e1 */
   text-decoration: none;
   font-family: inherit;
   font-weight: 500;
@@ -49,7 +52,7 @@
 }
 .item a:focus,
 .item a:hover {
-  color: #fff;
+  color: #585858;
 }
 .item a:focus:after,
 .item a:hover:after {

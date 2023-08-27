@@ -15,7 +15,7 @@ export default function Navbar() {
         <nav className={styles.header}>
             <div className={styles.container}>
                 <div className={styles.logoA}>
-                    <a
+                    {/*<a
                         href="/"
                     >
                         <Image
@@ -26,17 +26,19 @@ export default function Navbar() {
                             height={120}
                             priority
                         />
-                    </a>
+                    </a>*/}
+                    <h1>Ariadna Rodríguez</h1>
                 </div>
+                <div className={styles.line}></div>
                 <div className={styles.navbar}>
                     <div className={styles.item}>
-                        <Link href="/biography">
-                            <i className="bi bi-house-fill"></i>Página 1
+                        <Link href="/">
+                            <i className="bi bi-house-fill"></i>Inicio
                         </Link>
                     </div>
                     <div className={styles.item}>
-                        <Link href="/meritos">
-                            <i className="bi bi-people-fill"></i>Página 2
+                        <Link href="/sobremi">
+                            <i className="bi bi-people-fill"></i>Sobre mi
                         </Link>
                     </div>
                     <div className={styles.item}>
