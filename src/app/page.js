@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link';
 import styles from './page.module.css'
 // COMPONENTS
 import Navbar from '../components/Navbar';
@@ -7,7 +8,33 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <Navbar />
-      <div className={styles.section1}>
+      <section id='section1' className={styles.section1}>
+                <Image
+                    className={styles.imageS1}
+                    src="/BBPBethancourt.jpg"
+                    alt=""
+                    width={1400}
+                    height={550}
+                    /* objectFit="cover" */
+                />
+                {/* <Image
+                            className={styles.imageS1}
+                            src="/icecream.jpg"
+                            alt=""
+                            width={414}
+                            height={573}
+                            objectFit="cover"
+                            objectPosition="15%"
+                        /> */}
+                <div className={styles.text1_a1_s1}>
+                    <h1>Ariadna García Rodríguez</h1>
+                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt id illo aspernatur voluptatem natus, at porro nam repellat aliquam cupiditate quasi, consequuntur, delectus debitis similique odit doloribus! Maxime, magni necessitatibus."</p>
+                    <Link href='#section2'>
+                    Abrazos para una nariz sin olfato &darr;
+                    </Link>
+                </div>
+            </section>
+      <div id='section2' className={styles.section12}>
         <div className={styles.texto}>
           <h2>Nombre del libro</h2>
           <p>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia iusto tenetur possimus dolor voluptas, modi, cum eius molestias saepe at aut voluptatum deserunt facere aliquam officia labore, nam dicta a." -- Ariadna Rodríguez</p>
