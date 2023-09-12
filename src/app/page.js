@@ -11,7 +11,7 @@ export default function Home() {
       <section id='section1' className={styles.section1}>
                 <Image
                     className={styles.imageS1}
-                    src="/BBPBethancourt.jpg"
+                    src="/typeWriter2.png"
                     alt=""
                     width={1400}
                     height={550}
@@ -27,8 +27,7 @@ export default function Home() {
                             objectPosition="15%"
                         /> */}
                 <div className={styles.text1_a1_s1}>
-                    <h1>Ariadna García Rodríguez</h1>
-                    <p>"Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt id illo aspernatur voluptatem natus, at porro nam repellat aliquam cupiditate quasi, consequuntur, delectus debitis similique odit doloribus! Maxime, magni necessitatibus."</p>
+                    <p>"A la esperanza, aniquiladora de todo pesimismo"</p>
                     <Link href='#section2'>
                     Abrazos para una nariz sin olfato &darr;
                     </Link>

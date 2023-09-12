@@ -27,7 +27,7 @@ export default function Navbar() {
                             priority
                         />
                     </a>*/}
-                    <h1>Ariadna Rodríguez</h1>
+                    <h1>Ariadna García Rodríguez</h1>
                 </div>
                 <div className={styles.line}></div>
                 <div className={styles.navbar}>
@@ -38,22 +38,22 @@ export default function Navbar() {
                     </div>
                     <div className={styles.item}>
                         <Link href="/sobremi">
-                            <i className="bi bi-people-fill"></i>Sobre mi
+                            <i className="bi bi-people-fill"></i>Quien
                         </Link>
                     </div>
                     <div className={styles.item}>
                         <Link href="/literaria">
-                            <i className="bi bi-box-seam"></i>Página 3
+                            <i className="bi bi-box-seam"></i>Haceres
                         </Link>
                     </div>
                     <div className={styles.item}>
                         <Link href="/photos">
-                            <i className="bi bi-envelope-paper-fill"></i>Página 4
+                            <i className="bi bi-envelope-paper-fill"></i>Taller cultura
                         </Link>
                     </div>
                     <div className={styles.item}>
                         <Link href="/asociations">
-                            <i className="bi bi-envelope-paper-fill"></i>Página 5
+                            <i className="bi bi-envelope-paper-fill"></i>Contacto
                         </Link>
                     </div>
                 </div>
