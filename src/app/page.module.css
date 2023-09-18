@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  padding: 2rem 0 6rem 0;
+  padding-top: 2rem;
 }
 
 /* SECTION 1 */
@@ -116,6 +116,7 @@
 }
 
 .texto {
+  color: #000;
   width: 45rem;
   display: flex;
   flex-flow: column wrap;
@@ -133,7 +134,7 @@
   background-color: rgba(44, 44, 44, 0.842);
   width: 100%;
   margin-top: 10rem;
-  padding: 0 0;
+  padding: 0;
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;
@@ -275,12 +276,8 @@
 
 @media (prefers-color-scheme: dark) {
   .vercelLogo {
-    filter: invert(1);
   }
 
-  .logo {
-    filter: invert(1) drop-shadow(0 0 0.3rem #ffffff70);
-  }
 }
 
 @keyframes rotate {

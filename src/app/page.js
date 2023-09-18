@@ -1,8 +1,9 @@
 import Image from 'next/image'
-import Link from 'next/link';
+import Link from 'next/link'
 import styles from './page.module.css'
 // COMPONENTS
-import Navbar from '../components/Navbar';
+import Navbar from '../components/Navbar'
+import Footer from '../components/Footer'
 
 export default function Home() {
   return (
@@ -90,6 +91,13 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <Footer
+                page="/"
+                section1="Section 1"
+                section2="Section 2"
+                section3="Section 3"
+                section4="Section 4"
+            />
     </main>
   )
 }

@@ -10,7 +10,9 @@
   gap: 1rem;
 }
 .logoA {
+  color: #000;
   display: flex;
+  flex-flow: column wrap;
   justify-content: center;
   align-items: center;
   gap: 0.5rem;
@@ -83,7 +85,6 @@
 
 @media (prefers-color-scheme: dark) {
   .logo {
-    filter: invert(1);
   }
 }
 
