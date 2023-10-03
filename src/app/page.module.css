@@ -159,8 +159,9 @@
 
 /* SECTION 12 */
 .section12 {
+  background-color: dimgray;
   width: 100%;
-  margin-top: 6rem;
+  padding: 6rem 0 6rem 0;
   display: flex;
   flex-flow: row wrap;
   justify-content: space-around;
@@ -185,8 +186,6 @@
 .section2 {
   background-color: rgba(44, 44, 44, 0.842);
   width: 100%;
-  margin-top: 10rem;
-  padding: 0;
   display: flex;
   flex-flow: row wrap;
   justify-content: flex-start;

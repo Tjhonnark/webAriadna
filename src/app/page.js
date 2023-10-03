@@ -16,17 +16,7 @@ export default function Home() {
           alt=""
           width={1400}
           height={550}
-        /* objectFit="cover" */
         />
-        {/* <Image
-                            className={styles.imageS1}
-                            src="/icecream.jpg"
-                            alt=""
-                            width={414}
-                            height={573}
-                            objectFit="cover"
-                            objectPosition="15%"
-                        /> */}
         <div className={styles.text1_a1_s1}>
           <p>"A la esperanza, aniquiladora de todo pesimismo"</p>
           <Link href='#section2'>
@@ -56,22 +46,22 @@ export default function Home() {
           <p>Festival Internacional de Poesía de Penonomé en Abril, 2013</p>
         </div>
       </section>
-      <div id='section2' className={styles.section12}>
+      <section id='section2' className={styles.section12}>
         <div className={styles.texto}>
-          <h2>Nombre del libro</h2>
+          <h2>Abrazos para una nariz sin  olfato</h2>
           <p>"Lorem ipsum dolor, sit amet consectetur adipisicing elit. Mollitia iusto tenetur possimus dolor voluptas, modi, cum eius molestias saepe at aut voluptatum deserunt facere aliquam officia labore, nam dicta a." -- Ariadna Rodríguez</p>
         </div>
         <div className={styles.portada}>
           <Image
-            src="/logo.jpg"
-            alt="Vercel Logo"
+            src="/Portada Abrazos para una nariz sin  olfato BBP Bethancourt.jpg"
+            alt="Abrazos para una nariz sin  olfato BBP Bethancourt"
             className={styles.logo}
             width={270}
             height={350}
             priority
           />
         </div>
-      </div>
+      </section>
       <div className={styles.section2}>
         <h2>News</h2>
         <div className={styles.container}>

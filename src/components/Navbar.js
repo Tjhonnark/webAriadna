@@ -47,7 +47,7 @@ export default function Navbar() {
                         </Link>
                     </div>
                     <div className={styles.item}>
-                        <Link href="/tallercultura">
+                        <Link href="/tallerCultura">
                             <i className="bi bi-envelope-paper-fill"></i>Taller Cultura
                         </Link>
                     </div>
